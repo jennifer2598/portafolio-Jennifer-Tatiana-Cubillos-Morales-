@@ -3,141 +3,162 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portafolio | Jennifer Tatiana Cubillos Morales</title>
+
+<title>Portafolio | Jennifer Cubillos</title>
 
 <!-- Tailwind -->
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- Animaciones -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-- Fuente -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+}
+</style>
+
 </head>
 
-<body class="bg-gray-100 text-gray-800" style="font-family: 'Poppins', sans-serif;">
+<body class="bg-gray-950 text-white">
 
-<!-- HEADER -->
-<header class="bg-blue-700 text-white">
-  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-    <h1 class="text-2xl font-bold">Portafolio Profesional</h1>
-    <nav>
-      <ul class="flex space-x-6">
-        <li><a href="#inicio" class="hover:underline">Inicio</a></li>
-        <li><a href="#sobre-mi" class="hover:underline">Sobre mí</a></li>
-        <li><a href="#habilidades" class="hover:underline">Habilidades</a></li>
-        <li><a href="#proyectos" class="hover:underline">Proyectos</a></li>
-        <li><a href="#contacto" class="hover:underline">Contacto</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<!-- NAV -->
+<nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
+<h1 class="text-xl font-bold text-blue-500">Jennifer.dev</h1>
 
-<!-- INICIO -->
-<section id="inicio" class="text-center py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-  <h2 class="text-5xl font-bold mb-4">
-    Jennifer Tatiana Cubillos Morales
-  </h2>
-  <p class="text-xl mb-6">
-    Ingeniera en Sistemas | Desarrollo Web | Soluciones Tecnológicas
-  </p>
-  <a href="#proyectos"
-  class="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">
-    Ver Proyectos
-  </a>
+<ul class="flex gap-6 text-gray-300">
+<li><a href="#inicio" class="hover:text-white">Inicio</a></li>
+<li><a href="#sobre" class="hover:text-white">Sobre mí</a></li>
+<li><a href="#proyectos" class="hover:text-white">Proyectos</a></li>
+<li><a href="#contacto" class="hover:text-white">Contacto</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section id="inicio" class="text-center py-24 px-6">
+
+<h2 class="text-5xl font-bold mb-6" data-aos="fade-up">
+Hola, soy <span class="text-blue-500">Jennifer</span> 👋
+</h2>
+
+<p class="text-gray-400 max-w-xl mx-auto mb-6" data-aos="fade-up" data-aos-delay="200">
+Ingeniera en Sistemas enfocada en desarrollo web, soluciones tecnológicas
+y gestión de plataformas digitales.
+</p>
+
+<a href="#proyectos"
+class="bg-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+data-aos="zoom-in">
+Ver proyectos
+</a>
+
 </section>
 
-<!-- SOBRE MI -->
-<section id="sobre-mi" class="max-w-5xl mx-auto py-16 px-6">
-  <h2 class="text-3xl font-bold mb-6 text-center">Sobre mí</h2>
+<!-- SOBRE -->
+<section id="sobre" class="max-w-5xl mx-auto py-20 px-6 text-center">
 
-  <p class="text-lg text-center">
-    Este portafolio presenta proyectos y experiencias desarrolladas durante
-    mi formación como Ingeniera en Sistemas. Incluye trabajos relacionados con
-    desarrollo web, gestión de tecnologías de la información, auditoría de sistemas,
-    calidad de software y administración de plataformas tecnológicas.
-  </p>
+<h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Sobre mí</h2>
+
+<p class="text-gray-400" data-aos="fade-up" data-aos-delay="200">
+Soy Ingeniera en Sistemas con experiencia en desarrollo web, auditoría
+y gestión tecnológica. Me enfoco en crear soluciones digitales modernas,
+funcionales y orientadas a la innovación.
+</p>
+
 </section>
 
 <!-- HABILIDADES -->
-<section id="habilidades" class="py-16 bg-white">
-  <h2 class="text-3xl font-bold text-center mb-8">Habilidades</h2>
+<section class="py-16 bg-gray-900 text-center">
 
-  <div class="flex flex-wrap justify-center gap-4">
-    <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">HTML</span>
-    <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">CSS</span>
-    <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">JavaScript</span>
-    <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">Tailwind</span>
-    <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">Git & GitHub</span>
-  </div>
+<h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Habilidades</h2>
+
+<div class="flex flex-wrap justify-center gap-4">
+
+<span class="bg-gray-800 px-4 py-2 rounded-lg" data-aos="zoom-in">HTML</span>
+<span class="bg-gray-800 px-4 py-2 rounded-lg" data-aos="zoom-in">CSS</span>
+<span class="bg-gray-800 px-4 py-2 rounded-lg" data-aos="zoom-in">JavaScript</span>
+<span class="bg-gray-800 px-4 py-2 rounded-lg" data-aos="zoom-in">Tailwind</span>
+<span class="bg-gray-800 px-4 py-2 rounded-lg" data-aos="zoom-in">Git</span>
+
+</div>
+
 </section>
 
 <!-- PROYECTOS -->
-<section id="proyectos" class="bg-gray-50 py-16 px-6">
+<section id="proyectos" class="max-w-6xl mx-auto py-20 px-6">
 
-<h2 class="text-3xl font-bold text-center mb-10">
-Proyectos de Desarrollo Web
+<h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+Proyectos
 </h2>
 
-<div class="max-w-5xl mx-auto">
+<div class="grid md:grid-cols-2 gap-8">
 
-<!-- PROYECTO -->
-<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:scale-105 transition duration-300">
+<!-- PROYECTO JYS -->
+<div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300"
+data-aos="fade-up">
 
-<img src="eypowersun.png" alt="Proyecto E&Y Power Sun"
-class="w-full h-64 object-cover">
+<img src="jys.png" class="w-full h-56 object-cover">
 
 <div class="p-6">
 
-<h3 class="text-2xl font-bold mb-3">
-E&Y Power Sun
+<h3 class="text-xl font-bold mb-3">
+Soluciones Integrales JYS
 </h3>
 
-<p class="text-gray-600 mb-6">
-Desarrollo de un sitio web para la empresa E&Y Power Sun, dedicada a
-la comercialización de cargadores solares portátiles. Incluye diseño
-de interfaz, estructura HTML y estilos con Tailwind CSS.
+<p class="text-gray-400 mb-4">
+Sitio web desarrollado para empresa de mantenimiento, obra civil,
+electricidad y servicios integrales. Diseño moderno, responsive
+y enfocado en mostrar servicios y contacto.
 </p>
 
-<div class="flex gap-4">
-
-<a href="https://jennifer2598.github.io/POWER-SUN/"
+<a href="https://jennifer2598.github.io/JYS/"
 target="_blank"
-class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg">
-🌐 Ver sitio web
+class="text-blue-400 hover:underline">
+Ver proyecto →
 </a>
 
 </div>
-
-</div>
 </div>
 
 </div>
+
 </section>
 
 <!-- CONTACTO -->
-<section id="contacto" class="py-16 text-center bg-gray-100">
+<section id="contacto" class="text-center py-20 bg-gray-900">
 
-<h2 class="text-3xl font-bold mb-6">Contacto</h2>
+<h2 class="text-3xl font-bold mb-6" data-aos="fade-up">
+Contacto
+</h2>
 
-<p class="mb-2">📍 Pereira, Colombia</p>
+<p class="text-gray-400 mb-2" data-aos="fade-up">📍 Pereira, Colombia</p>
+<p class="text-gray-400 mb-2" data-aos="fade-up">📧 jennifer@email.com</p>
 
-<p class="mb-2">
-📧 Email: jennifer@email.com
-</p>
-
-<p class="mb-2">
-
+<a href="https://github.com/jennifer2598"
 target="_blank"
-class="text-blue-600 font-semibold hover:underline">
-Ver perfil
+class="text-blue-400 hover:underline"
+data-aos="fade-up">
+Ver GitHub
 </a>
-</p>
 
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-blue-700 text-white text-center p-6">
-<p>© 2025 Jennifer Tatiana Cubillos Morales</p>
+<footer class="text-center p-6 text-gray-500">
+© 2025 Jennifer Cubillos
 </footer>
+
+<!-- SCRIPT ANIMACIONES -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+duration: 1000,
+once: true
+});
+</script>
 
 </body>
 </html>
