@@ -4,58 +4,65 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jennifer Cubillos | Portafolio</title>
+<title>Jennifer Tatiana Cubillos Morales | Portafolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-body { font-family: 'Inter', sans-serif; }
+body { font-family: 'Poppins', sans-serif; }
 </style>
 
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-gradient-to-br from-gray-900 via-black to-gray-950 text-white">
 
 <!-- NAV -->
 <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
-<h1 class="text-lg font-semibold">Jennifer Cubillos</h1>
+<h1 class="text-xl font-bold text-blue-500">Jennifer Cubillos</h1>
 
-<ul class="flex gap-6 text-gray-400">
+<ul class="flex gap-6 text-gray-300">
+<li><a href="#inicio" class="hover:text-white">Inicio</a></li>
+<li><a href="#sobre" class="hover:text-white">Sobre mí</a></li>
 <li><a href="#proyectos" class="hover:text-white">Proyectos</a></li>
 <li><a href="#contacto" class="hover:text-white">Contacto</a></li>
 </ul>
 </nav>
 
 <!-- HERO -->
-<section class="max-w-6xl mx-auto px-6 py-28">
+<section id="inicio" class="text-center py-28 px-6">
 
-<h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-Ingeniera en Sistemas <br>
-<span class="text-gray-400">Desarrollo de soluciones web</span>
+<h2 class="text-5xl md:text-6xl font-bold mb-6" data-aos="fade-up">
+Jennifer Tatiana Cubillos Morales
 </h2>
 
-<p class="text-gray-500 max-w-xl mb-8">
-Especializada en desarrollo web, gestión de tecnologías de la información
-y creación de soluciones digitales enfocadas en optimizar procesos
-y mejorar la experiencia del usuario.
+<p class="text-xl text-blue-400 mb-4" data-aos="fade-up" data-aos-delay="200">
+Ingeniera en Sistemas
+</p>
+
+<p class="text-gray-400 max-w-xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="300">
+Desarrollo de soluciones web, gestión de tecnologías de la información
+y creación de plataformas digitales modernas y eficientes.
 </p>
 
 <a href="#proyectos"
-class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition">
+class="bg-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transition"
+data-aos="zoom-in">
 Ver proyectos
 </a>
 
 </section>
 
 <!-- SOBRE -->
-<section class="max-w-5xl mx-auto px-6 py-16">
+<section id="sobre" class="max-w-5xl mx-auto py-20 px-6 text-center">
 
-<h3 class="text-2xl font-semibold mb-4">Sobre mí</h3>
+<h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Sobre mí</h2>
 
-<p class="text-gray-400 leading-relaxed">
-Soy Ingeniera en Sistemas con énfasis en programación, orientada al desarrollo de soluciones tecnológicas eficientes y modernas.
+<p class="text-gray-400 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+Soy Ingeniera en Sistemas con énfasis en programación, orientada al desarrollo de soluciones tecnológicas eficientes y modernas. 
 Cuento con experiencia en desarrollo web, gestión de tecnologías de la información, auditoría de sistemas y calidad de software.
 
 Me caracterizo por mi capacidad de análisis, organización y aprendizaje continuo, lo que me permite diseñar e implementar soluciones digitales que aportan valor a organizaciones y usuarios.
@@ -64,54 +71,40 @@ Me caracterizo por mi capacidad de análisis, organización y aprendizaje contin
 </section>
 
 <!-- PROYECTOS -->
-<section id="proyectos" class="max-w-6xl mx-auto px-6 py-20">
+<section id="proyectos" class="max-w-6xl mx-auto py-20 px-6">
 
-<h3 class="text-2xl font-semibold mb-10">Proyectos</h3>
+<h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+Proyectos
+</h2>
 
 <div class="grid md:grid-cols-2 gap-8">
 
 <!-- JYS -->
-<div class="border border-gray-800 p-6 rounded-xl hover:border-white transition">
-<h4 class="text-xl font-semibold mb-2">Soluciones Integrales JYS</h4>
-<p class="text-gray-400 mb-4">
-Plataforma web para servicios de mantenimiento, obra civil y soluciones integrales.
-</p>
-<a href="https://jennifer2598.github.io/JYS-web/" target="_blank" class="text-white underline">
-Ver proyecto
-</a>
+<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition" data-aos="fade-up">
+<h3 class="text-xl font-bold mb-3">Soluciones Integrales JYS</h3>
+<p class="text-gray-400 mb-4">Servicios de mantenimiento, obra civil y soluciones integrales.</p>
+<a href="https://jennifer2598.github.io/JYS-web/" target="_blank" class="text-blue-400 hover:underline">Ver proyecto →</a>
 </div>
 
 <!-- POWER SUN -->
-<div class="border border-gray-800 p-6 rounded-xl hover:border-white transition">
-<h4 class="text-xl font-semibold mb-2">Power Sun</h4>
-<p class="text-gray-400 mb-4">
-Sitio web para empresa de cargadores solares con diseño responsive.
-</p>
-<a href="https://jennifer2598.github.io/POWER-SUN/" target="_blank" class="text-white underline">
-Ver proyecto
-</a>
+<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition" data-aos="fade-up">
+<h3 class="text-xl font-bold mb-3">Power Sun</h3>
+<p class="text-gray-400 mb-4">Sitio web para empresa de energía solar.</p>
+<a href="https://jennifer2598.github.io/POWER-SUN/" target="_blank" class="text-blue-400 hover:underline">Ver proyecto →</a>
 </div>
 
 <!-- SYJ -->
-<div class="border border-gray-800 p-6 rounded-xl hover:border-white transition">
-<h4 class="text-xl font-semibold mb-2">SYJ Eléctricos</h4>
-<p class="text-gray-400 mb-4">
-Página web para servicios eléctricos y mantenimiento locativo.
-</p>
-<a href="https://jennifer2598.github.io/SYJ-ELECTRICOS-Y-MANTENIMIENTO-LOCATIVO/" target="_blank" class="text-white underline">
-Ver proyecto
-</a>
+<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition" data-aos="fade-up">
+<h3 class="text-xl font-bold mb-3">SYJ Eléctricos</h3>
+<p class="text-gray-400 mb-4">Servicios eléctricos y mantenimiento locativo.</p>
+<a href="https://jennifer2598.github.io/SYJ-ELECTRICOS-Y-MANTENIMIENTO-LOCATIVO/" target="_blank" class="text-blue-400 hover:underline">Ver proyecto →</a>
 </div>
 
 <!-- PORTAFOLIO -->
-<div class="border border-gray-800 p-6 rounded-xl hover:border-white transition">
-<h4 class="text-xl font-semibold mb-2">Portafolio Profesional</h4>
-<p class="text-gray-400 mb-4">
-Sitio web donde presento mis proyectos y habilidades como ingeniera.
-</p>
-<a href="https://jennifer2598.github.io/portafolio-Jennifer-Tatiana-Cubillos-Morales-/" target="_blank" class="text-white underline">
-Ver proyecto
-</a>
+<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition" data-aos="fade-up">
+<h3 class="text-xl font-bold mb-3">Mi Portafolio</h3>
+<p class="text-gray-400 mb-4">Presentación de proyectos y habilidades profesionales.</p>
+<a href="https://jennifer2598.github.io/portafolio-Jennifer-Tatiana-Cubillos-Morales-/" target="_blank" class="text-blue-400 hover:underline">Ver proyecto →</a>
 </div>
 
 </div>
@@ -119,25 +112,29 @@ Ver proyecto
 </section>
 
 <!-- CONTACTO -->
-<section id="contacto" class="max-w-6xl mx-auto px-6 py-20">
+<section id="contacto" class="text-center py-20">
 
-<h3 class="text-2xl font-semibold mb-6">Contacto</h3>
+<h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Contacto</h2>
 
 <p class="text-gray-400 mb-2">📍 Pereira, Colombia</p>
 <p class="text-gray-400 mb-2">📧 jennifer@email.com</p>
 
 <a href="https://github.com/jennifer2598"
 target="_blank"
-class="text-white underline">
+class="text-blue-400 hover:underline">
 GitHub
 </a>
 
 </section>
 
-<!-- FOOTER -->
-<footer class="text-center text-gray-600 py-6">
-© 2025 Jennifer Cubillos
+<footer class="text-center text-gray-500 py-6">
+© 2025 Jennifer Tatiana Cubillos Morales
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({ duration: 1000, once: true });
+</script>
 
 </body>
 </html>
