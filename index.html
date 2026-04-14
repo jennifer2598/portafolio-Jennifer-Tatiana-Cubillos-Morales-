@@ -1,119 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Portafolio | Jennifer Tatiana Cubillos Morales</title>
-
 <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
-<body class="bg-gray-100 font-sans">
+<body class="bg-gray-100 text-gray-800 font-sans">
 
 <!-- HEADER -->
 <header class="bg-blue-700 text-white">
-<div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-
-<h1 class="text-xl font-bold">Portafolio Profesional</h1>
-
-<nav>
-<a href="#inicio" class="mr-4 hover:underline">Inicio</a>
-<a href="#sobre" class="mr-4 hover:underline">Sobre mí</a>
-<a href="#herramientas" class="mr-4 hover:underline">Herramientas</a>
-<a href="#proyectos" class="mr-4 hover:underline">Proyectos</a>
-<a href="#contacto" class="hover:underline">Contacto</a>
-</nav>
-
-</div>
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold">Portafolio Profesional</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+        <li><a href="#sobre-mi" class="hover:underline">Sobre mí</a></li>
+        <li><a href="#proyectos" class="hover:underline">Proyectos</a></li>
+        <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <!-- INICIO -->
 <section id="inicio" class="text-center py-16 bg-blue-100">
-
-<img src="perfil.jpg"
-onerror="this.src='https://via.placeholder.com/150'"
-class="w-40 h-40 mx-auto rounded-full mb-6 shadow-lg">
-
-<h2 class="text-4xl font-bold mb-4">
-Jennifer Tatiana Cubillos Morales
-</h2>
-
-<p class="text-lg max-w-3xl mx-auto">
-Ingeniera en Sistemas con énfasis en programación, interesada en el desarrollo web,
-gestión de tecnologías de la información, auditoría de sistemas y calidad de software.
-</p>
-
+  <h2 class="text-4xl font-bold mb-4">Jennifer Tatiana Cubillos Morales</h2>
+  <p class="text-lg">
+    Ingeniera en Sistemas con énfasis en programación, enfocada en
+    desarrollo web, gestión de tecnologías de la información y
+    administración de plataformas digitales.
+  </p>
 </section>
 
 <!-- SOBRE MI -->
-<section id="sobre" class="max-w-5xl mx-auto py-16 px-6">
+<section id="sobre-mi" class="max-w-5xl mx-auto py-16 px-6">
+  <h2 class="text-3xl font-bold mb-6 text-center">Sobre mí</h2>
 
-<h2 class="text-3xl font-bold text-center mb-8">Sobre mí</h2>
-
-<p class="text-lg text-center">
-Este portafolio presenta proyectos y experiencias desarrolladas durante mi formación
-como Ingeniera en Sistemas con énfasis en programación. Incluye trabajos relacionados
-con desarrollo web, gestión de tecnologías de la información, auditoría de sistemas,
-calidad de software y administración de plataformas tecnológicas.
-</p>
-
-</section>
-
-<!-- HERRAMIENTAS -->
-<section id="herramientas" class="py-16 px-6 bg-white">
-
-<h2 class="text-3xl font-bold text-center mb-10">
-Herramientas y Tecnologías
-</h2>
-
-<div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
-
-<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
-<h3 class="text-xl font-bold mb-3">💻 Desarrollo Web</h3>
-<p>HTML</p>
-<p>CSS</p>
-<p>JavaScript</p>
-<p>Tailwind CSS</p>
-</div>
-
-<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
-<h3 class="text-xl font-bold mb-3">📊 Gestión TIC</h3>
-<p>Gestión de proyectos TI</p>
-<p>Administración de plataformas</p>
-<p>Soporte tecnológico</p>
-<p>Documentación técnica</p>
-</div>
-
-<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
-<h3 class="text-xl font-bold mb-3">🔍 Calidad y Auditoría</h3>
-<p>Pruebas de software</p>
-<p>Control de calidad</p>
-<p>Auditoría de sistemas</p>
-<p>Mejora de procesos</p>
-</div>
-
-</div>
-
+  <p class="text-lg text-center">
+    Este portafolio presenta proyectos y experiencias desarrolladas durante
+    mi formación como Ingeniera en Sistemas con énfasis en programación.
+    Incluye trabajos relacionados con desarrollo web, gestión de tecnologías
+    de la información, auditoría de sistemas, calidad de software y
+    administración de plataformas tecnológicas. A través de estos proyectos
+    se evidencian habilidades en diseño de páginas web, desarrollo de
+    soluciones tecnológicas y organización de procesos digitales orientados
+    a la innovación y mejora continua.
+  </p>
 </section>
 
 <!-- PROYECTOS -->
 <section id="proyectos" class="bg-gray-50 py-16 px-6">
 
-<h2 class="text-3xl font-bold text-center mb-12">
-Proyectos
+<h2 class="text-3xl font-bold text-center mb-10">
+Proyectos de Desarrollo Web
 </h2>
 
-<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+<div class="max-w-5xl mx-auto">
 
-<!-- PROYECTO 1 -->
-<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
+<!-- PROYECTO -->
+<div class="bg-white shadow-lg rounded-xl overflow-hidden">
 
-<img src="powersun.jpg"
-alt="E&Y Power Sun"
-onerror="this.src='https://via.placeholder.com/600x400?text=E%26Y+Power+Sun'"
+<img src="eypowersun.png" alt="Proyecto E&Y Power Sun"
 class="w-full h-64 object-cover">
 
 <div class="p-6">
@@ -123,65 +72,51 @@ E&Y Power Sun
 </h3>
 
 <p class="text-gray-600 mb-6">
-Desarrollo de un sitio web para la empresa E&Y Power Sun dedicada a la comercialización de cargadores solares portátiles.
+Desarrollo de un sitio web para la empresa E&Y Power Sun, dedicada a
+la comercialización de cargadores solares portátiles. El proyecto
+incluye diseño de interfaz web, estructura en HTML y estilos utilizando
+Tailwind CSS. La página permite presentar productos, información de
+la empresa y medios de contacto, ofreciendo una solución digital para
+promocionar servicios relacionados con energía solar.
 </p>
+
+<div class="flex gap-4">
 
 <a href="https://jennifer2598.github.io/POWER-SUN/"
 target="_blank"
-class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">
-
+class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg">
 🌐 Ver sitio web
-
 </a>
 
-</div>
-</div>
-
-<!-- PROYECTO 2 -->
-<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
-
-<img src="jys.jpg"
-alt="Soluciones Integrales JYS"
-onerror="this.src='https://via.placeholder.com/600x400?text=Proyecto+JYS'"
-class="w-full h-64 object-cover">
-
-<div class="p-6">
-
-<h3 class="text-2xl font-bold mb-3">
-Soluciones Integrales JYS
-</h3>
-
-<p class="text-gray-600 mb-6">
-Desarrollo de un sitio web para empresa de mantenimiento general y servicios.
-</p>
-
-<a href="https://jennifer2598.github.io/JYS-web/"
+<a href="https://github.com/jennifer2598/POWER-SUN"
 target="_blank"
-class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">
-
-🌐 Ver sitio web
-
+class="bg-gray-700 hover:bg-gray-800 text-white px-5 py-2 rounded-lg">
+💻 Ver código
 </a>
 
 </div>
+
+</div>
 </div>
 
 </div>
-
 </section>
 
 <!-- CONTACTO -->
 <section id="contacto" class="py-16 text-center">
 
-<h2 class="text-3xl font-bold mb-6">
-Contacto
-</h2>
+<h2 class="text-3xl font-bold mb-6">Contacto</h2>
 
-<p>Pereira, Colombia</p>
+<p class="mb-2">📍 Pereira, Colombia</p>
 
-<p class="mt-2">
-GitHub:
-<a href="https://github.com/jennifer2598" class="text-blue-600">
+<p class="mb-2">
+📧 Email: jennifer@email.com
+</p>
+
+<p class="mb-2">
+💻 GitHub:
+<a href="https://github.com/jennifer2598"
+class="text-blue-600 font-semibold">
 github.com/jennifer2598
 </a>
 </p>
@@ -190,11 +125,7 @@ github.com/jennifer2598
 
 <!-- FOOTER -->
 <footer class="bg-blue-700 text-white text-center p-6">
-
-<p>
-© 2026 Jennifer Tatiana Cubillos Morales
-</p>
-
+<p>© 2025 Jennifer Tatiana Cubillos Morales</p>
 </footer>
 
 </body>
