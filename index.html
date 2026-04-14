@@ -1,3 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portafolio | Jennifer Tatiana Cubillos Morales</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<!-- HEADER -->
+<header class="bg-blue-700 text-white">
+<div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+<h1 class="text-xl font-bold">Portafolio Profesional</h1>
+
+<nav>
+<a href="#inicio" class="mr-4 hover:underline">Inicio</a>
+<a href="#sobre" class="mr-4 hover:underline">Sobre mí</a>
+<a href="#herramientas" class="mr-4 hover:underline">Herramientas</a>
+<a href="#proyectos" class="mr-4 hover:underline">Proyectos</a>
+<a href="#contacto" class="hover:underline">Contacto</a>
+</nav>
+
+</div>
+</header>
+
+<!-- INICIO -->
+<section id="inicio" class="text-center py-16 bg-blue-100">
+
+<img src="perfil.jpg"
+onerror="this.src='https://via.placeholder.com/150'"
+class="w-40 h-40 mx-auto rounded-full mb-6 shadow-lg">
+
+<h2 class="text-4xl font-bold mb-4">
+Jennifer Tatiana Cubillos Morales
+</h2>
+
+<p class="text-lg max-w-3xl mx-auto">
+Ingeniera en Sistemas con énfasis en programación, interesada en el desarrollo web,
+gestión de tecnologías de la información, auditoría de sistemas y calidad de software.
+</p>
+
+</section>
+
+<!-- SOBRE MI -->
+<section id="sobre" class="max-w-5xl mx-auto py-16 px-6">
+
+<h2 class="text-3xl font-bold text-center mb-8">Sobre mí</h2>
+
+<p class="text-lg text-center">
+Este portafolio presenta proyectos y experiencias desarrolladas durante mi formación
+como Ingeniera en Sistemas con énfasis en programación. Incluye trabajos relacionados
+con desarrollo web, gestión de tecnologías de la información, auditoría de sistemas,
+calidad de software y administración de plataformas tecnológicas.
+</p>
+
+</section>
+
+<!-- HERRAMIENTAS -->
+<section id="herramientas" class="py-16 px-6 bg-white">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+Herramientas y Tecnologías
+</h2>
+
+<div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+
+<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
+<h3 class="text-xl font-bold mb-3">💻 Desarrollo Web</h3>
+<p>HTML</p>
+<p>CSS</p>
+<p>JavaScript</p>
+<p>Tailwind CSS</p>
+</div>
+
+<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
+<h3 class="text-xl font-bold mb-3">📊 Gestión TIC</h3>
+<p>Gestión de proyectos TI</p>
+<p>Administración de plataformas</p>
+<p>Soporte tecnológico</p>
+<p>Documentación técnica</p>
+</div>
+
+<div class="bg-gray-100 p-6 rounded-lg shadow hover:scale-105 transition">
+<h3 class="text-xl font-bold mb-3">🔍 Calidad y Auditoría</h3>
+<p>Pruebas de software</p>
+<p>Control de calidad</p>
+<p>Auditoría de sistemas</p>
+<p>Mejora de procesos</p>
+</div>
+
+</div>
+
+</section>
+
 <!-- PROYECTOS -->
 <section id="proyectos" class="bg-gray-50 py-16 px-6">
 
@@ -8,9 +109,9 @@ Proyectos
 <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
 
 <!-- PROYECTO 1 -->
-<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition duration-300">
+<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
 
-<img src="img/powersun.jpg"
+<img src="powersun.jpg"
 alt="E&Y Power Sun"
 onerror="this.src='https://via.placeholder.com/600x400?text=E%26Y+Power+Sun'"
 class="w-full h-64 object-cover">
@@ -22,8 +123,7 @@ E&Y Power Sun
 </h3>
 
 <p class="text-gray-600 mb-6">
-Desarrollo de un sitio web para la empresa E&Y Power Sun dedicada
-a la comercialización de cargadores solares portátiles.
+Desarrollo de un sitio web para la empresa E&Y Power Sun dedicada a la comercialización de cargadores solares portátiles.
 </p>
 
 <a href="https://jennifer2598.github.io/POWER-SUN/"
@@ -38,9 +138,9 @@ class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-l
 </div>
 
 <!-- PROYECTO 2 -->
-<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition duration-300">
+<div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
 
-<img src="img/jys.jpg"
+<img src="jys.jpg"
 alt="Soluciones Integrales JYS"
 onerror="this.src='https://via.placeholder.com/600x400?text=Proyecto+JYS'"
 class="w-full h-64 object-cover">
@@ -52,8 +152,7 @@ Soluciones Integrales JYS
 </h3>
 
 <p class="text-gray-600 mb-6">
-Desarrollo de un sitio web para empresa de mantenimiento general
-y servicios, enfocado en la gestión y presentación digital.
+Desarrollo de un sitio web para empresa de mantenimiento general y servicios.
 </p>
 
 <a href="https://jennifer2598.github.io/JYS-web/"
@@ -70,3 +169,33 @@ class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-l
 </div>
 
 </section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-16 text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+Contacto
+</h2>
+
+<p>Pereira, Colombia</p>
+
+<p class="mt-2">
+GitHub:
+<a href="https://github.com/jennifer2598" class="text-blue-600">
+github.com/jennifer2598
+</a>
+</p>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-blue-700 text-white text-center p-6">
+
+<p>
+© 2026 Jennifer Tatiana Cubillos Morales
+</p>
+
+</footer>
+
+</body>
+</html>
